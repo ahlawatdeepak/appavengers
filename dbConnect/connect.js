@@ -1,9 +1,9 @@
 const mongoose=require("mongoose")
-require("dotenv").config()
+
 
 
 const dbconnect=()=>{
-      return mongoose.connect(process.env.MONGOOSE_URL)
+      return mongoose.connect("mongodb+srv://deepakahlawat10:deepakahlawat10@cluster0.qkndiwa.mongodb.net/appavengers?retryWrites=true&w=majority)
 }
 
 module.exports=dbconnect

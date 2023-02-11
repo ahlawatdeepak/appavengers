@@ -1,8 +1,8 @@
 const express = require('express')
 const cors=require("cors")
 const dbconnect = require('./dbConnect/connect')
-require("dotenv").config()
-const PORT=process.env.CURRENT_MODE=="DEV" ? process.env.DEV_PORT : process.env.PROD_PORT
+
+const PORT=8000
 
 
 // Import  routers

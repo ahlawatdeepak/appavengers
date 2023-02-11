@@ -26,6 +26,6 @@ app.get('/', (req, res) => res.send('hello world'))
 
 app.listen(8000,async() => {
     await dbconnect()
-    console.log(`server started on port ${PORT}`)
+    console.log(`server started on port 8000`)
 
 })
